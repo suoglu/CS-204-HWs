@@ -1,5 +1,5 @@
 # Image-Median-Filtering
-### Simple programme that applies median filter to a matrix
+Simple programme that applies median filter to a matrix
 
 ## How to use:
 
