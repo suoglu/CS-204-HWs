@@ -13,6 +13,9 @@ using namespace std;
 void clearList(node * racers)
 //clears list recursively
 {
+    if(racers == NULL) //bug fix: if node if NULL return
+        return;
+    
     if(racers->next != NULL) //if not last element
     {
         clearList(racers->next); //apply same procedure for next elements
