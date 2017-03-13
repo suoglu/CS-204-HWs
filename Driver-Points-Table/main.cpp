@@ -38,7 +38,6 @@ int main()
                 break;
             case 4:
                 clearList(racers);
-                displayList(racers);
                 cout << "Exiting...\n";
                 return 0;
             default:
